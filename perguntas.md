@@ -80,6 +80,22 @@ Faça algum tipo de analogia, para que todos entendam isso.
     console.log(`Servidor rodando em http://localhost:${PORT}`);
 });
 
+Esse pedaço de código tem duas funções principais:
+
+Iniciar o servidor
+
+A chamada app.listen(PORT, callback) faz com que sua aplicação comece a “ouvir” requisições HTTP na porta indicada por PORT.
+Pense na porta como uma porta de entrada: é por ali que clientes (navegadores, apps, etc.) se conectam para usar seu serviço.
+
+Confirmar que está rodando
+
+O segundo argumento de app.listen é uma função que só roda depois que o servidor realmente entrou em operação.
+Dentro dessa função, console.log("Servidor rodando em http://localhost:" + PORT) escreve no terminal uma mensagem avisando onde encontrar sua aplicação.
+Em outras palavras, esse comando:
+Liga o “motor” do servidor na porta definida
+Assim que tudo estiver ok, imprime no console o endereço (localhost mais a porta) para você saber que pode começar a testar
+Dessa forma você garante que o servidor está ativo e recebe um feedback imediato de que ele está acessível em localhost na porta escolhida.
+
 17) Para que serve isso? É importante?
  process.on('SIGINT', () => {
     saveDataToCSV();
