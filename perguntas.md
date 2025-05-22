@@ -7,14 +7,14 @@ No arquivo script.js
 
 💙OKSANE💙 :
 
-❤️💙 "Ter um servidor rodando": Significa que o servidor está ativo e funcionando.
+ "Ter um servidor rodando": Significa que o servidor está ativo e funcionando.
 
-❤️💙 "O servidor caiu": Significa que o servidor parou de funcionar, geralmente por algum problema.
+ "O servidor caiu": Significa que o servidor parou de funcionar, geralmente por algum problema.
 
-❤️💙 "Você subiu o servidor?": Significa perguntar se o servidor foi iniciado ou colocado em   funcionamento.
+ "Você subiu o servidor?": Significa perguntar se o servidor foi iniciado ou colocado em   funcionamento.
 
 
-❤️💙 R: Ter um servidor rodando: O sistema está funcionando e aceitando conexões.
+R: Ter um servidor rodando: O sistema está funcionando e aceitando conexões.
 O servidor caiu: O sistema parou, está fora do ar, não está mais funcionando.
 Você subiu o servidor?: Você ligou/ativou o servidor? (Colocou ele para rodar novamente?)
 
@@ -38,19 +38,35 @@ e.preventDefault(); evita que a página recarregue ao enviar o formulário.
 RESPOSTA: No JavaScript, `productForm.addEventListener('submit', function(e) {` adiciona um 
 ouvinte para o evento de envio do formulário. O evento `submit` é acionado quando o formulário é enviado. 
 A função `e.preventDefault()` impede o envio padrão (como recarregar a página), permitindo que o envio seja tratado com JavaScript.
+---
 
 5) Na função productForm.addEventListener, explique a const product e o if que vem na sequência
- -- a "const product" cria um objeto chamado product com duas propriedades. "name" recebe o valor da váriavel productName. e "quantity" recebe o valor numérico do campo quantidade e transforma-o para inteiro. o bloco if é uma verifiação condicional para saber se o formulário está sendo usado para criar ou editar um produto novo.
+
+Dhébora e Malisa
+A const product armazena os dados do produto do formulário (nome, preço, etc.) e o if serve para verificar se os campos necessários estão preenchidos antes de enviar os dados.
+
+---
+6)  function loadProducts() {
+        fetch('http://localhost:3000/products'). O que é esse fetch? Para que serve?
+Resp: O fetch é usado para buscar recursos (como dados) de um servidor, normalmente por meio de uma URL.
+
+ -- a "const product" cria um objeto chamado product com duas propriedades. "name" recebe o valor da váriavel productName. e "quantity" recebe o valor numérico do campo quantidade e 
+ transforma-o para inteiro. o bloco if é uma verifiação condicional para saber se o formulário está sendo usado para criar ou editar um produto novo.
 
 6)  function loadProducts() {
         fetch('http://localhost:3000/products'). O que é esse fetch? Para que serve?  
         
 Resp (da Fefê): O `fetch` é uma função JavaScript usada para fazer requisições HTTP (HyperText Transfer Protocol). No exemplo, ela busca dados da URL (Uniform Resource Locator) `'http://localhost:3000/products'`. Serve para obter informações de um servidor, como uma lista de produtos.
         
+--- 
+
 7) No fetch, tem .then e .catch. O que é isso? Explique.
+
+---
+
 8) Explique a function addProductToTable(product) {. Prepare-se para fazer um teste de mesa demonstrando seu funcionamento. Onde esse função é chamada?
 
-JÃO
+# JÃO
 R:A função addProductTable(product) adiciona um produto a uma tabela.
 
 9) Na função addProductToTable, tem um querySelecto. O que é isso? Para que serve?
@@ -184,10 +200,15 @@ Salvar os dados em um arquivo .csv automaticamente quando o servidor for encerra
 
 18) Têm a function loadDataFromCSV() {. Explique isso de modo simples (para humanos leigos entenderem).
 19) O que são rotas no servidor? O que tem haver com o express?
+
+--- 
 20) Explique o que é o cors. Para que serve? 
+
 Julia
 O CORS (sigla para Cross-Origin Resource Sharing, ou Compartilhamento de Recursos entre Origens Diferentes) é um mecanismo de segurança implementado pelos 
 navegadores para controlar o acesso a recursos entre diferentes origens (domínios, portas ou protocolos).
 
 O CORS protege os usuários contra requisições mal-intencionadas vindas de outras origens. Por padrão, o navegador bloqueia requisições 
 feitas por JavaScript de uma origem para outra (por exemplo, de siteA.com para siteB.com) caso o servidor de destino não permita isso explicitamente.
+
+
