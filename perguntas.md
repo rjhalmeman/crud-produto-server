@@ -3,6 +3,8 @@ No arquivo script.js
 1) No vscode, como eu abro um terminal para executar comandos como git add ., ou npm, etc? Explique.
 2) O que significa "ter um servidor rodando". A frase o servidor caiu, o que quer dizer? Você subiu o servidor? Explique essas frases.
 3) O que é document.addEventListener('DOMContentLoaded', function() { ? Especialmente DOMContentLoaded
+R- Ele é basicamente um evento, que quando o conteúdo do arquivo HTML for carregado, ele em seguida executará o que estiver na função.
+
 4) Explique  productForm.addEventListener('submit', function(e) {. Que evento submit é esse? O que é o preventDefault? ( e.preventDefault();)
 5) Na função productForm.addEventListener, explique a const product e o if que vem na sequência
 6)  function loadProducts() {
