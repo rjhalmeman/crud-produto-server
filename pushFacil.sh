@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Nome padrão do repositório remoto
-default_remote="https://github.com/rjhalmeman/crud-produtos-server"
+default_remote="https://github.com/rjhalmeman/crud-produto-server"
 
 # Verifica se o git está instalado
 if ! command -v git &> /dev/null

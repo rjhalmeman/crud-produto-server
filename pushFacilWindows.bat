@@ -2,7 +2,7 @@
 setlocal enabledelayedexpansion
 
 :: Nome padrão do repositório remoto
-set default_remote=https://github.com/rjhalmeman/crud-produtos-server
+set default_remote=https://github.com/rjhalmeman/crud-produto-server
 
 :: Verifica se o git está instalado
 where git >nul 2>&1
