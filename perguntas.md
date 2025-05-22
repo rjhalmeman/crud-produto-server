@@ -2,6 +2,11 @@ No arquivo script.js
 
 1) No vscode, como eu abro um terminal para executar comandos como git add ., ou npm, etc? Explique.
 2) O que significa "ter um servidor rodando". A frase o servidor caiu, o que quer dizer? Você subiu o servidor? Explique essas frases.
+
+R: Ter um servidor rodando: O sistema está funcionando e aceitando conexões.
+O servidor caiu: O sistema parou, está fora do ar, não está mais funcionando.
+Você subiu o servidor?: Você ligou/ativou o servidor? (Colocou ele para rodar novamente?)
+
 3) O que é document.addEventListener('DOMContentLoaded', function() { ? Especialmente DOMContentLoaded
 4) Explique  productForm.addEventListener('submit', function(e) {. Que evento submit é esse? O que é o preventDefault? ( e.preventDefault();)
 5) Na função productForm.addEventListener, explique a const product e o if que vem na sequência
