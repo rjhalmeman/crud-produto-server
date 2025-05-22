@@ -12,6 +12,9 @@ No arquivo script.js
 9) Na função addProductToTable, tem um querySelecto. O que é isso? Para que serve?
 10) Na função createProduct, tem um body: JSON.stringfy(product). O que isso faz?
 11) Na função createProduto, tem .catch(error => console.error('Erro ao criar produto:', error)); Onde vai printar essa mensagem de erro? Explique.
+
+R:A mensagem será impressa no console do navegador caso apareça algum erro durante a criação do produto, que pode estar relacionado a problemas de conexão com o servidor, problemas de validação de dados, entre outros.
+
 12) Na função function editProduct(id) {
         fetch(`http://localhost:3000/products/${id}`). O que é esse S{id} que aparece no fetch? Por quê? Explique isso.
 13) Explique esse app.get('/products', (req, res) => {
