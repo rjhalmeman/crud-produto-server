@@ -30,6 +30,8 @@ R- Ele é basicamente um evento, que quando o conteúdo do arquivo HTML for carr
 
 4) Explique  productForm.addEventListener('submit', function(e) {. Que evento submit é esse? O que é o preventDefault? ( e.preventDefault();)
 5) Na função productForm.addEventListener, explique a const product e o if que vem na sequência
+ -- a "const product" cria um objeto chamado product com duas propriedades. "name" recebe o valor da váriavel productName. e "quantity" recebe o valor numérico do campo quantidade e transforma-o para inteiro. o bloco if é uma verifiação condicional para saber se o formulário está sendo usado para criar ou editar um produto novo.
+
 6)  function loadProducts() {
         fetch('http://localhost:3000/products'). O que é esse fetch? Para que serve?
 7) No fetch, tem .then e .catch. O que é isso? Explique.
