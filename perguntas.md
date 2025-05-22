@@ -17,6 +17,7 @@ R- Ele é basicamente um evento, que quando o conteúdo do arquivo HTML for carr
 7) No fetch, tem .then e .catch. O que é isso? Explique.
 8) Explique a function addProductToTable(product) {. Prepare-se para fazer um teste de mesa demonstrando seu funcionamento. Onde esse função é chamada?
 
+JÃO
 R:A função addProductTable(product) adiciona um produto a uma tabela.
 
 9) Na função addProductToTable, tem um querySelecto. O que é isso? Para que serve?
