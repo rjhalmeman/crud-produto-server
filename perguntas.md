@@ -35,7 +35,10 @@ RESPOSTA: No JavaScript, `productForm.addEventListener('submit', function(e) {` 
  -- a "const product" cria um objeto chamado product com duas propriedades. "name" recebe o valor da váriavel productName. e "quantity" recebe o valor numérico do campo quantidade e transforma-o para inteiro. o bloco if é uma verifiação condicional para saber se o formulário está sendo usado para criar ou editar um produto novo.
 
 6)  function loadProducts() {
-        fetch('http://localhost:3000/products'). O que é esse fetch? Para que serve?
+        fetch('http://localhost:3000/products'). O que é esse fetch? Para que serve?  
+        
+Resp (da Fefê): O `fetch` é uma função JavaScript usada para fazer requisições HTTP (HyperText Transfer Protocol). No exemplo, ela busca dados da URL (Uniform Resource Locator) `'http://localhost:3000/products'`. Serve para obter informações de um servidor, como uma lista de produtos.
+        
 7) No fetch, tem .then e .catch. O que é isso? Explique.
 8) Explique a function addProductToTable(product) {. Prepare-se para fazer um teste de mesa demonstrando seu funcionamento. Onde esse função é chamada?
 
