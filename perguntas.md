@@ -5,8 +5,10 @@ No arquivo script.js
 3) O que é document.addEventListener('DOMContentLoaded', function() { ? Especialmente DOMContentLoaded
 4) Explique  productForm.addEventListener('submit', function(e) {. Que evento submit é esse? O que é o preventDefault? ( e.preventDefault();)
 5) Na função productForm.addEventListener, explique a const product e o if que vem na sequência
+Resp: A const product armazena os dados do produto do formulário (nome, preço, etc.) e o if serve para verificar se os campos necessários estão preenchidos antes de enviar os dados.
 6)  function loadProducts() {
         fetch('http://localhost:3000/products'). O que é esse fetch? Para que serve?
+Resp: O fetch é usado para buscar recursos (como dados) de um servidor, normalmente por meio de uma URL.
 7) No fetch, tem .then e .catch. O que é isso? Explique.
 8) Explique a function addProductToTable(product) {. Prepare-se para fazer um teste de mesa demonstrando seu funcionamento. Onde esse função é chamada?
 9) Na função addProductToTable, tem um querySelecto. O que é isso? Para que serve?
