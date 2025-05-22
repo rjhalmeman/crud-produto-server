@@ -15,6 +15,25 @@ Você subiu o servidor?: Você ligou/ativou o servidor? (Colocou ele para rodar 
 7) No fetch, tem .then e .catch. O que é isso? Explique.
 8) Explique a function addProductToTable(product) {. Prepare-se para fazer um teste de mesa demonstrando seu funcionamento. Onde esse função é chamada?
 9) Na função addProductToTable, tem um querySelecto. O que é isso? Para que serve?
+
+//O que é querySelector? 
+O querySelector é um método JavaScript que permite selecionar o primeiro elemento no documento que corresponde a um seletor CSS específico. Ele "procura" no DOM (Document Object Model) por elementos que combinem com o seletor fornecido.
+
+Para que serve neste contexto?
+//Neste caso específico:
+  row.querySelector('.edit-btn') - Procura dentro da linha da tabela (row) o primeiro elemento com a classe CSS edit-btn (que é o botão "Editar")
+  row.querySelector('.delete-btn') - Procura dentro da linha da tabela o primeiro elemento com a classe CSS delete-btn (que é o botão "Excluir")
+  Depois de encontrar esses botões, o código adiciona um event listener (ouvinte de eventos) a cada um deles:
+
+Ao botão "Editar": chama a função editProduct com o ID do produto
+Ao botão "Excluir": chama a função deleteProduct com o ID do produto
+
+//Por que usar querySelector aqui?
+Estamos usando querySelector porque:
+Precisamos encontrar os botões específicos dentro de cada linha da tabela
+Queremos adicionar comportamentos dinâmicos a esses botões
+É uma forma eficiente de selecionar elementos baseados em classes CSS
+
 10) Na função createProduct, tem um body: JSON.stringfy(product). O que isso faz?
     R: Na função createProduct, o trecho body: JSON.stringify(product) serve para converter o objeto JavaScript product em uma string JSON, que é o formato esperado quando você envia dados em uma requisição HTTP (normalmente do tipo POST ou PUT) para uma API.
 11) Na função createProduto, tem .catch(error => console.error('Erro ao criar produto:', error)); Onde vai printar essa mensagem de erro? Explique.
