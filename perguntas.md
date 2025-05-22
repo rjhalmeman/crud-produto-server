@@ -50,7 +50,10 @@ R:A mensagem será impressa no console do navegador caso apareça algum erro dur
 13) Explique esse app.get('/products', (req, res) => {
     res.json(products);
 });
-ara mostrar os produtos quando alguém acessa a URL /products.
+
+Resposta😎: Cria uma rota que quando uma requisição GET é feita o express() responde com a
+lista de produtos que esta no link do localhost, porém convertido em uma array do tipo jason,
+e o cliente recebe ela
 
 14) Explique esse app.get('/products/:id', (req, res) => {
     const id = parseInt(req.params.id);
