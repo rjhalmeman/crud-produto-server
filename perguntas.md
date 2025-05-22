@@ -1,6 +1,7 @@
 No arquivo script.js
 
 1) No vscode, como eu abro um terminal para executar comandos como git add ., ou npm, etc? Explique.
+   
    Considerando que seu projeto está aberto no vscode na pasta correta. Ao abrir um terminal (menu terminal -> novo terminal) fica fácil para executar comandos. Podem ser comandos git, nome, npm, etc.
 
    --- 
