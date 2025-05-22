@@ -29,6 +29,7 @@ O que é esse res?
     }
 });
 Faça algum tipo de analogia, para que todos entendam isso.
+R: Imagine que você está em uma loja e deseja saber mais sobre um produto específico. Você vai até o balcão e pede informações sobre o produto com o código "123". O atendente então verifica se esse código corresponde a algum produto no estoque. Se encontrar, ele lhe fornece os detalhes; caso contrário, informa que o produto não está disponível.
 15) Esse app.post('/products', (req, res) => {. É uma função? O que é essa flexinha (=>)?
 16) Para que serve isso?
      app.listen(PORT, () => {
