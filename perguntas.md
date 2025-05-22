@@ -44,6 +44,14 @@ Faça algum tipo de analogia, para que todos entendam isso.
     process.exit();
 });
 No server.js
+
+Serve para:
+
+Salvar os dados em um arquivo .csv automaticamente quando o servidor for encerrado (por exemplo, ao apertar Ctrl + C).
+É importante?
+
+✅ Sim, evita que você perca alterações feitas em memória (como produtos, cupons ou usuários) ao fechar o servidor.
+
 18) Têm a function loadDataFromCSV() {. Explique isso de modo simples (para humanos leigos entenderem).
 19) O que são rotas no servidor? O que tem haver com o express?
 20) Explique o que é o cors. Para que serve? 
