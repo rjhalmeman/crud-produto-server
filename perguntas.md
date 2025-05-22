@@ -120,7 +120,25 @@ e o cliente recebe ela
 });
 Faça algum tipo de analogia, para que todos entendam isso.
 
-Gabriel Thomé Baumann: Basicamente, se tivermos uma loja de produtos em que cada prateleira tiver um id único e um produto diferente. 
+---
+
+15) Esse app.post('/products', (req, res) => {. É uma função? O que é essa flexinha (=>)?
+
+# Débora Voidelo: 
+A linha app.post('/products', (req, res) => { define uma função que será executada quando o servidor receber uma requisição do tipo POST 
+no endereço /products. Ou seja, quando alguém enviar dados para esse caminho, essa função vai ser chamada.
+
+A parte (req, res) são os parâmetros da função. req representa a requisição que chegou (com dados, cabeçalhos, etc.), e res 
+representa a resposta que será enviada de volta ao cliente.
+
+A seta => é usada para escrever uma arrow function, uma forma mais moderna e compacta de escrever funções em JavaScript. Funciona como uma função normal, mas com uma sintaxe mais curta.
+
+Então, essa linha está dizendo:
+
+"Quando alguém fizer uma requisição POST para o caminho /products, execute esta função que lida com a requisição e prepara a resposta."
+
+# Gabriel Thomé Baumann: 
+Basicamente, se tivermos uma loja de produtos em que cada prateleira tiver um id único e um produto diferente. 
 O vendedor só vai ter que pegar o id da prateleira e verificar se existe um produto com essa prateleira. Caso ele encontre, 
 vai aparecer qual produto é, caso não vai mostrar 'Produto não encontrado'
 
@@ -128,9 +146,7 @@ vai aparecer qual produto é, caso não vai mostrar 'Produto não encontrado'
 O código app.post('/products', (req, res) => { ... }) usa uma arrow function (função de seta) no JavaScript. A "flexinha" (=>) é uma 
 forma mais curta e moderna de escrever funções. No exemplo, req representa a requisição e res a resposta do servidor. Essa sintaxe é
 equivalente a uma função tradicional, mas mais concisa.
-
-
-
+--- 
 16) Para que serve isso?
      app.listen(PORT, () => {
     console.log(`Servidor rodando em http://localhost:${PORT}`);
