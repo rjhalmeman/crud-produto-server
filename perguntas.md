@@ -86,18 +86,10 @@ No caso, ${id} será substituído pelo valor da variável id no momento da execu
 13) Explique esse app.get('/products', (req, res) => {
     res.json(products);
 });
-O que é esse res? 
-R:O código app.get('/products', (req, res) => { res.json(products); }); cria uma rota no servidor usando Express.js.
-    -Quando alguém acessa o endereço /products com uma requisição do tipo GET, essa função é executada.
 
-    -req representa a requisição do cliente.
-
-    -res representa a resposta do servidor.
-
-    -A linha res.json(products); faz o servidor responder com os dados da variável products em formato JSON.
-
-Por exemplo, se products for uma lista de produtos, essa rota envia essa lista como resposta.
-Em resumo: esse código serve para mostrar os produtos quando alguém acessa a URL /products.
+Resposta😎: Cria uma rota que quando uma requisição GET é feita o express() responde com a
+lista de produtos que esta no link do localhost, porém convertido em uma array do tipo jason,
+e o cliente recebe ela
 
 14) Explique esse app.get('/products/:id', (req, res) => {
     const id = parseInt(req.params.id);
