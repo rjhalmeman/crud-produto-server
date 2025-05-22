@@ -44,3 +44,5 @@ No server.js
 18) Têm a function loadDataFromCSV() {. Explique isso de modo simples (para humanos leigos entenderem).
 19) O que são rotas no servidor? O que tem haver com o express?
 20) Explique o que é o cors. Para que serve? 
+O CORS (sigla para Cross-Origin Resource Sharing, ou Compartilhamento de Recursos entre Origens Diferentes) é um mecanismo de segurança implementado pelos navegadores para controlar o acesso a recursos entre diferentes origens (domínios, portas ou protocolos).
+O CORS protege os usuários contra requisições mal-intencionadas vindas de outras origens. Por padrão, o navegador bloqueia requisições feitas por JavaScript de uma origem para outra (por exemplo, de siteA.com para siteB.com) caso o servidor de destino não permita isso explicitamente.
