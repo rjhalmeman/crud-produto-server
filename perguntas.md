@@ -13,7 +13,10 @@ R- Ele é basicamente um evento, que quando o conteúdo do arquivo HTML for carr
 4) Explique  productForm.addEventListener('submit', function(e) {. Que evento submit é esse? O que é o preventDefault? ( e.preventDefault();)
 5) Na função productForm.addEventListener, explique a const product e o if que vem na sequência
 6)  function loadProducts() {
-        fetch('http://localhost:3000/products'). O que é esse fetch? Para que serve?
+        fetch('http://localhost:3000/products'). O que é esse fetch? Para que serve?  
+        
+Resp (da Fefê): O `fetch` é uma função JavaScript usada para fazer requisições HTTP (HyperText Transfer Protocol). No exemplo, ela busca dados da URL (Uniform Resource Locator) `'http://localhost:3000/products'`. Serve para obter informações de um servidor, como uma lista de produtos.
+        
 7) No fetch, tem .then e .catch. O que é isso? Explique.
 8) Explique a function addProductToTable(product) {. Prepare-se para fazer um teste de mesa demonstrando seu funcionamento. Onde esse função é chamada?
 9) Na função addProductToTable, tem um querySelecto. O que é isso? Para que serve?
