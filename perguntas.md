@@ -30,6 +30,17 @@ O que é esse res?
 });
 Faça algum tipo de analogia, para que todos entendam isso.
 15) Esse app.post('/products', (req, res) => {. É uma função? O que é essa flexinha (=>)?
+
+R: A linha app.post('/products', (req, res) => { define uma função que será executada quando o servidor receber uma requisição do tipo POST no endereço /products. Ou seja, quando alguém enviar dados para esse caminho, essa função vai ser chamada.
+
+A parte (req, res) são os parâmetros da função. req representa a requisição que chegou (com dados, cabeçalhos, etc.), e res representa a resposta que será enviada de volta ao cliente.
+
+A seta => é usada para escrever uma arrow function, uma forma mais moderna e compacta de escrever funções em JavaScript. Funciona como uma função normal, mas com uma sintaxe mais curta.
+
+Então, essa linha está dizendo:
+"Quando alguém fizer uma requisição POST para o caminho /products, execute esta função que lida com a requisição e prepara a resposta."
+
+
 16) Para que serve isso?
      app.listen(PORT, () => {
     console.log(`Servidor rodando em http://localhost:${PORT}`);
