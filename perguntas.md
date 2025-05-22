@@ -29,6 +29,8 @@ Você subiu o servidor?: Você ligou/ativou o servidor? (Colocou ele para rodar 
 R- Ele é basicamente um evento, que quando o conteúdo do arquivo HTML for carregado, ele em seguida executará o que estiver na função.
 
 4) Explique  productForm.addEventListener('submit', function(e) {. Que evento submit é esse? O que é o preventDefault? ( e.preventDefault();)
+RESPOSTA: No JavaScript, `productForm.addEventListener('submit', function(e) {` adiciona um ouvinte para o evento de envio do formulário. O evento `submit` é acionado quando o formulário é enviado. A função `e.preventDefault()` impede o envio padrão (como recarregar a página), permitindo que o envio seja tratado com JavaScript.
+
 5) Na função productForm.addEventListener, explique a const product e o if que vem na sequência
  -- a "const product" cria um objeto chamado product com duas propriedades. "name" recebe o valor da váriavel productName. e "quantity" recebe o valor numérico do campo quantidade e transforma-o para inteiro. o bloco if é uma verifiação condicional para saber se o formulário está sendo usado para criar ou editar um produto novo.
 
