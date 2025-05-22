@@ -14,6 +14,9 @@ No arquivo script.js
 11) Na função createProduto, tem .catch(error => console.error('Erro ao criar produto:', error)); Onde vai printar essa mensagem de erro? Explique.
 12) Na função function editProduct(id) {
         fetch(`http://localhost:3000/products/${id}`). O que é esse S{id} que aparece no fetch? Por quê? Explique isso.
+    R: Nessa função, a parte \${id} é utilizada para inserir dinamicamente o valor da variável id dentro da URL. Isso é possível porque essa string está escrita utilizando template literals (ou template strings), que são delimitadas por crases (`) em vez de aspas.
+    As template strings permitem que expressões JavaScript sejam inseridas diretamente dentro da string usando a sintaxe ${...}. No caso do exemplo, ${id} será substituído pelo valor da variável id quando o código for executado. Por exemplo, se id for igual a 5, a URL final usada pelo fetch será http://localhost:3000/products/5.    
+    
 13) Explique esse app.get('/products', (req, res) => {
     res.json(products);
 });
