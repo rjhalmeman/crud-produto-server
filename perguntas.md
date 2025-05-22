@@ -8,6 +8,8 @@ O servidor caiu: O sistema parou, está fora do ar, não está mais funcionando.
 Você subiu o servidor?: Você ligou/ativou o servidor? (Colocou ele para rodar novamente?)
 
 3) O que é document.addEventListener('DOMContentLoaded', function() { ? Especialmente DOMContentLoaded
+R- Ele é basicamente um evento, que quando o conteúdo do arquivo HTML for carregado, ele em seguida executará o que estiver na função.
+
 4) Explique  productForm.addEventListener('submit', function(e) {. Que evento submit é esse? O que é o preventDefault? ( e.preventDefault();)
 5) Na função productForm.addEventListener, explique a const product e o if que vem na sequência
 6)  function loadProducts() {
