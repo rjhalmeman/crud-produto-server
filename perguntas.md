@@ -8,8 +8,6 @@ No arquivo script.js
 
 2) O que significa "ter um servidor rodando". A frase o servidor caiu, o que quer dizer? Você subiu o servidor? Explique essas frases.
 
-
-
 **💙OKSANE💙 :**
 
  "Ter um servidor rodando": Significa que o servidor está ativo e funcionando.
