@@ -11,6 +11,7 @@ No arquivo script.js
 8) Explique a function addProductToTable(product) {. Prepare-se para fazer um teste de mesa demonstrando seu funcionamento. Onde esse função é chamada?
 9) Na função addProductToTable, tem um querySelecto. O que é isso? Para que serve?
 10) Na função createProduct, tem um body: JSON.stringfy(product). O que isso faz?
+    R: Na função createProduct, o trecho body: JSON.stringify(product) serve para converter o objeto JavaScript product em uma string JSON, que é o formato esperado quando você envia dados em uma requisição HTTP (normalmente do tipo POST ou PUT) para uma API.
 11) Na função createProduto, tem .catch(error => console.error('Erro ao criar produto:', error)); Onde vai printar essa mensagem de erro? Explique.
 
 R:A mensagem será impressa no console do navegador caso apareça algum erro durante a criação do produto, que pode estar relacionado a problemas de conexão com o servidor, problemas de validação de dados, entre outros.
