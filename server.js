@@ -81,7 +81,6 @@ app.get('/products', (req, res) => {
     res.json(products);
 });
 
-
 app.get('/products/:id', (req, res) => {
     const id = parseInt(req.params.id);
     const product = products.find(p => p.id === id);
