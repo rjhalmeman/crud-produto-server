@@ -74,6 +74,9 @@ Em resumo: esse código serve para mostrar os produtos quando alguém acessa a U
     }
 });
 Faça algum tipo de analogia, para que todos entendam isso.
+
+Gabriel Thomé Baumann: Basicamente, se tivermos uma loja de produtos em que cada prateleira tiver um id único e um produto diferente. O vendedor só vai ter que pegar o id da prateleira e verificar se existe um produto com essa prateleira. Caso ele encontre, vai aparecer qual produto é, caso não vai mostrar 'Produto não encontrado'
+
 15) Esse app.post('/products', (req, res) => {. É uma função? O que é essa flexinha (=>)?
 16) Para que serve isso?
      app.listen(PORT, () => {
