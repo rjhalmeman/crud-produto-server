@@ -3,6 +3,24 @@ No arquivo script.js
 1) No vscode, como eu abro um terminal para executar comandos como git add ., ou npm, etc? Explique.
 2) O que significa "ter um servidor rodando". A frase o servidor caiu, o que quer dizer? Você subiu o servidor? Explique essas frases.
 
+~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.
+
+💙OKSANE💙 :
+
+❤️💙 "Ter um servidor rodando": Significa que o servidor está ativo e funcionando.
+
+❤️💙 "O servidor caiu": Significa que o servidor parou de funcionar, geralmente por algum problema.
+
+❤️💙 "Você subiu o servidor?": Significa perguntar se o servidor foi iniciado ou colocado em   funcionamento.
+
+
+❤️💙 R: Ter um servidor rodando: O sistema está funcionando e aceitando conexões.
+O servidor caiu: O sistema parou, está fora do ar, não está mais funcionando.
+Você subiu o servidor?: Você ligou/ativou o servidor? (Colocou ele para rodar novamente?)
+
+
+~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.~.
+
 R: Ter um servidor rodando: O sistema está funcionando e aceitando conexões.
 O servidor caiu: O sistema parou, está fora do ar, não está mais funcionando.
 Você subiu o servidor?: Você ligou/ativou o servidor? (Colocou ele para rodar novamente?)
