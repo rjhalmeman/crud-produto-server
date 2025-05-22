@@ -43,4 +43,7 @@ Faça algum tipo de analogia, para que todos entendam isso.
 No server.js
 18) Têm a function loadDataFromCSV() {. Explique isso de modo simples (para humanos leigos entenderem).
 19) O que são rotas no servidor? O que tem haver com o express?
+
+R: As rotas são basicamente como o servidor responde a diferentes tipos de urls e endereços estando ligada aos metos http: get, use, post. E o express ele é basicamente uma biblioteca que facilita a criação do servidor, pois não teremos que criá-las a mão, ao contrário se não o usássemos teriamos que criá-las a mão.
+
 20) Explique o que é o cors. Para que serve? 
