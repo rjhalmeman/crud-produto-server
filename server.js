@@ -53,7 +53,7 @@ function loadDataFromCSV() {
 function saveDataToCSV() {
     try {
         let csvData = 'id,name,quantity\n';
-        products.forEach(product => {
+        x .forEach(product => {
             csvData += `${product.id},${product.name},${product.quantity}\n`;
         });
 
@@ -71,8 +71,16 @@ function setupAutoSave() {
     }, 60000); // 60.000 ms = 1 minuto
 }
 
+function listarProdutos(){
+    for (let i = 0; i < products.length; i++) {
+        const p = products[i];
+        console.log(p)        
+    }
+}
+
 // Carregar dados ao iniciar
 loadDataFromCSV();
+listarProdutos();
 setupAutoSave();
 
 // Rotas (mantidas as mesmas do original)
